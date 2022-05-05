@@ -22,7 +22,10 @@ import glob
 import os.path
 import warnings
 
+import numpy as np
 import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
 # -
 
 # ## 📁 Data processing 📁
@@ -64,3 +67,7 @@ dfs.keys()
 type(dfs["Teams"])
 
 dfs["Teams"]
+
+# ## ❄ Plots ❄
+
+
