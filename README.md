@@ -49,7 +49,7 @@ conda activate mira-bing
 Run
 
 ```
-cd notebooks/01
+cd notebooks/{path-to-notebook}
 ```
 
 ### ⚫ Generate notebook
@@ -57,10 +57,10 @@ cd notebooks/01
 Run
 
 ```
-jupytext --to ipynb 01.py
+jupytext --to ipynb {notebook-name}.py
 ```
 
-to generate the notebook as a `01.ipynb` file.
+to generate the notebook as a `{notebook-name}.ipynb` file.
 
 ## ❄ Open Jupyter notebook ❄
 
@@ -75,3 +75,13 @@ and then click one of the links that pops up in your terminal to open the notebo
 <center>
 <img src="images/lab.png" style="border-radius: 10px">
 </center>
+
+## ❄ Update virtual environment config ❄
+
+`cd` into the root directory `mira-bing`. Then run
+
+```
+conda env export --from-history mira-bing.yml
+```
+
+to update the `mira-bing.yml` config file with any new Python libraries you imported.
