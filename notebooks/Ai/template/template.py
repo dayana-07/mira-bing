@@ -13,24 +13,32 @@
 #     name: python3
 # ---
 
-# # `01.ipynb`
+# # `template.ipynb`
 
 # ## 🐍 Python imports 🐍
 
-# +
+# ### 🗃 File processing
+
 import glob
 import os.path
+
+# ### ⚠ Warning messages
+
 import warnings
+
+# ### 🎨 Visualization
 
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-# -
 
 # ## 📁 Data processing 📁
 #
 # ---
+#
+# <details>
+#     <summary> 🔗 Show links</summary>
 #
 # ### ⚪ Import all excel sheets at once
 #
@@ -45,29 +53,45 @@ import seaborn as sns
 # </center>
 #
 # https://stackoverflow.com/questions/66214951/how-to-deal-with-warning-workbook-contains-no-default-style-apply-openpyxls
+#
+# </details>
+
+# ### 🍃 Extract
+#
+# ---
+#
+# Store each excel file as a DataFrame in a dictionary `dfs`
 
 # +
-files = glob.glob("data/*.xlsx")
+path = "../../../data/"
+# files = glob.glob("../../data/*.xlsx")
+files = glob.glob(path + "*.xlsx")
 dfs = {}
 
 for file in files:
-    file_name = os.path.splitext(file)[0].replace("data/", "")
+    file_name = os.path.splitext(file)[0].replace(path, "")
     with warnings.catch_warnings(record=True):
         warnings.simplefilter("always")
         df = pd.read_excel(file)
     dfs[file_name] = df
 # -
 
-# ## 🌸 Playground 🌸
+# ### 💧🔥 Transform
+
+# ### 🍵 Load
+
+# #### 📝 Example: How to get a DataFrame from the `dfs` dictionary
 
 type(dfs)
 
 dfs.keys()
 
-type(dfs["Teams"])
+type(dfs["Athletes"])
 
-dfs["Teams"]
+dfs["Athletes"]["Name"]
 
-# ## ❄ Plots ❄
-
-
+# ## ❄ Visualizations ❄
+#
+# ---
+#
+# TBA
