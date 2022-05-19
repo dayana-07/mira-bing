@@ -10,6 +10,7 @@
 
 - Combined notebook: `notebooks/presentation/live.py` that needs to be converted to `.ipynb` format with the following instructions.
 - Pre-rendered notebook: `notebooks/presentation/live.html`
+- Summaries: `contributions.md`
 
 ## ❄ Setup ❄
 
