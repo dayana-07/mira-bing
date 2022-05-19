@@ -1,8 +1,12 @@
 # `README.md` for [mira-bing](https://github.com/Ai-Yukino/mira-bing)
 
-{Fun image goes here}
+<div align="center">
+    <img src="images/presentation.png" style="width:60%; border-radius:2%;">
+</div>
 
 ---
+
+For more context on the following instructions, please see this [article](https://goodresearch.dev/tidy.html).
 
 ## ❄ Setup ❄
 
