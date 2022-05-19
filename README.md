@@ -9,7 +9,9 @@
 ## 🌸 Grading 🌸
 
 - Combined notebook: `notebooks/presentation/live.py` that needs to be converted to `.ipynb` format with the following instructions.
-- Pre-rendered notebook: `notebooks/presentation/live.html`
+- Pre-rendered notebook:
+  - Download or clone this notebook then
+  - double-click `notebooks/presentation/live.html` to open up a preview render in your favorite browser
 - Summaries: `contributions.md`
 
 ## ❄ Setup ❄
