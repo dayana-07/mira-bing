@@ -40,3 +40,10 @@ Role: Data engineer/IT/DevOps
 ## ❄ Cherylyn ❄
 
 ## ❄ Dayana ❄
+Role: Data Analyst
+-Reviewing statistical data by applying the program describe()
+-Looking into possibilities to clean data 
+     -Reviewed some duplicate values that were best left as is given that names of athletes by country can be the same
+-Created two basic visualizations 
+     -Bar graph for distribution of Gender by Discipline
+     -Bar graph for distribution of Medals by Country 
