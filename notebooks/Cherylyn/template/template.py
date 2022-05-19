@@ -86,9 +86,11 @@ type(dfs)
 
 dfs.keys()
 
-type(dfs["Athletes"])
+type(dfs['../../../data\\Athletes'])
 
-dfs["Athletes"]["Name"]
+dfs['../../../data\\Athletes']["Name"]
+
+dfs['../../../data\\Athletes']
 
 # ## ❄ Visualizations ❄
 #
