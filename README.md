@@ -6,9 +6,14 @@
 
 ---
 
-For more context on the following instructions, please see this [article](https://goodresearch.dev/tidy.html).
+## 🌸 Grading 🌸
+
+- Combined notebook: `notebooks/presentation/live.py` that needs to be converted to `.ipynb` format with the following instructions.
+- Pre-rendered notebook: `notebooks/presentation/live.html`
 
 ## ❄ Setup ❄
+
+For more context on the following instructions, please see this [article](https://goodresearch.dev/tidy.html).
 
 ### ⚪ Clone this repo
 
